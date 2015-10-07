@@ -16,4 +16,9 @@ describe 'fizzbuzz' do
   it "returns fizz when given 9" do
   	expect(fizzbuzz(9)).to eq('fizz')
   end
+
+  it "returns fizzbuzz when 30" do
+    expect(fizzbuzz(30)).to eq('fizzbuzz')
+  end
+
 end
