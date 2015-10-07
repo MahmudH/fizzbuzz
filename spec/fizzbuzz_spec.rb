@@ -1,5 +1,4 @@
 require 'fizzbuzz'
-#Test 1 - return fizz if div by 3.
 
 describe 'fizzbuzz' do
   it "it returns fizz when given 3" do
@@ -12,5 +11,9 @@ describe 'fizzbuzz' do
 
   it "returns buzz when given 10" do
     expect(fizzbuzz(10)).to eq('buzz')
+  end
+
+  it "returns fizz when given 9" do
+  	expect(fizzbuzz(9)).to eq('fizz')
   end
 end
